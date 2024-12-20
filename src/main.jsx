@@ -30,7 +30,5 @@ export function CvApp() {
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <CvApp />
-    {/* <CreateCv />
-    <FinalCV /> */}
   </StrictMode>
 );

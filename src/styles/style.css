@@ -1,22 +1,16 @@
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
     gap: 100px; 
     padding: 30px;
     width: 100%;
 }
 
-/* .formContent {
-    max-width: 400px;
-} */
-
 form, .finalCv {
     display: flex;
     flex-direction: column;
-    width: 100%;
     justify-content: center;
-    /* gap: 10px; */
     border-radius: 5px;
     background: #f2f2f2;
     color: #000;
@@ -49,4 +43,14 @@ textarea {
 
 button {
     width: 100%;
+}
+
+.finalCv {
+    margin-top: 20px;
+    border: none;
+    background: #646cff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
